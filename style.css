@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background:gold;
+    font-family: Big Shoulders Display, cursive
+}
+h2 {
+    font-family: Orbitron, sans-serif
+}
+
+.navbar ul{
+list-style:none;
+background: black;
+margin: 0;
+padding:0;
+text-align: center;
+font-family: Orbitron, sans-serif
+
+}
+.navbar li{
+    display: inline-block;
+    
+}
+.navbar a{
+    text-decoration: none;
+     color:white;
+    width: 120px;
+    display: block;
+    padding: 25px 20px;
+    font-size:17px;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: skyblue;
+    color: black;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    background: gold;
+    overflow: auto;
+    
+}
+.gallery{
+    margin: 5px;
+    border: 2px solid black;
+    float: left;
+    width: 350px;
+
+}
+.gallery:hover{
+    border: 3px solid skyblue;
+}
+.gallery img{
+    width:100%;
+    height: auto;
+    
+
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+    font-size:20px;
+}
+.main{
+    width: 500px;
+    border:3px solid white;
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+}
+.about{
+    width: 100%;
+    padding:100px 0px;
+    background-color: gold;
+}
+.about img{
+    height:auto;
+    width:430px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Big Shoulders Display, cursive
+}
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: Orbitron, sans-serif
+}
+.about-text p{
+color: black;
+letter-spacing: 1px;
+line-height: 20px;
+font-size: 20px;
+margin-bottom: 45px;
+}
+
+
+footer{
+padding: 10px;
+font-size: 17px;
+text-align: center;
+background: black;
+color:white;
+font-family: Orbitron, sans-serif;
+letter-spacing: 1px;
+}
