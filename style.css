@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
 }
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 body{
     margin: 0;
     padding: 0;
@@ -44,7 +45,25 @@ font-family: Orbitron, sans-serif
     margin: auto;
     background: gold;
     overflow: auto;
+
+
+
+}
+.container{
+    border:3px solid white;
+    padding: 50px;
+    margin: 50px;
+    text-align: center;
+   
     
+
+}
+.container h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: Orbitron, sans-serif
 }
 .gallery{
     margin: 5px;
@@ -109,6 +128,23 @@ letter-spacing: 1px;
 line-height: 20px;
 font-size: 20px;
 margin-bottom: 45px;
+}
+
+.fa {  
+    padding: 20px;  
+  text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 50px;  
+  } 
+  
+  .fa-instagram {  
+    background: #125688;  
+    color: white;  
+  }  
+.fa a:hover{
+    background-color: skyblue;
+    color: black;
 }
 
 
