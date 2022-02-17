@@ -41,11 +41,11 @@ font-family: Orbitron, sans-serif
     color: black;
 }
 .container{
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
     background: gold;
     overflow: auto;
-
+   
 
 
 }
@@ -54,9 +54,6 @@ font-family: Orbitron, sans-serif
     padding: 50px;
     margin: 50px;
     text-align: center;
-   
-    
-
 }
 .container h2{
     color: white;
@@ -69,15 +66,15 @@ font-family: Orbitron, sans-serif
     margin: 5px;
     border: 2px solid black;
     float: left;
-    width: 350px;
+    width: 405px;
 
 }
 .gallery:hover{
     border: 3px solid skyblue;
 }
 .gallery img{
-    width:100%;
-    height: auto;
+    width:400px;
+    height: 500px;
     
 
 }
@@ -86,6 +83,7 @@ font-family: Orbitron, sans-serif
     text-align: center;
     background-color: white;
     font-size:20px;
+    width:400px;
 }
 .main{
     width: 500px;
